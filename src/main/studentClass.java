@@ -1,0 +1,2 @@
+public class studentClass {
+}
