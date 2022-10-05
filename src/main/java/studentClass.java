@@ -1,19 +1,24 @@
 import org.joda.time.DateTime;
-public class lecturerClass {
+import java.util.ArrayList;
+
+public class studentClass {
     String name;
     Integer age;
     DateTime DOB;
     String ID;
     String username;
+    ArrayList<String> courses;
     ArrayList<String> modules;
 
-    public lecturerClass(String name, Integer age, DateTime DOB, String ID, ArrayList<String> modules)
+    public studentClass(String name, Integer age, DateTime DOB, String ID, ArrayList<String> courses, ArrayList<String> modules)
     {
         this.name = name;
         this.age = age;
         this.DOB = DOB;
         this.ID = ID;
+        this.courses = courses;
         this.modules = modules;
+        setUsername(name, age);
         username = setUsername(name, age);
 
     }
@@ -50,7 +55,7 @@ public class lecturerClass {
         this.ID = ID;
     }
 
-    public String setUsername(name, age)
+    public String setUsername(String name, Integer age)
     {
         name = name.replaceAll(" ", "");
         username = name + age;
@@ -59,14 +64,28 @@ public class lecturerClass {
 
     public String getUsername()
     {
-        return username
+        return username;
+    }
+
+
+    public ArrayList<String> getCourses() {
+        return courses;
+    }
+
+    public void addCourses(String course)
+    {
+        courses.add(course);
+    }
+
+    public void setCourses(ArrayList<String> courses) {
+        this.courses = courses;
     }
 
     public ArrayList<String> getModules() {
         return modules;
     }
 
-    public addModules(String module)
+    public void addModules(String module)
     {
         modules.add(module);
     }
@@ -75,4 +94,3 @@ public class lecturerClass {
         this.modules = modules;
     }
 }
-

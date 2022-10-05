@@ -1,7 +1,8 @@
-import org.joda.time.DateTime;
+import java.util.ArrayList;
+
 public class moduleClass {
     String moduleName;
-    String lecturerName
+    String lecturerName;
     String moduleID;
     ArrayList<String> students;
     ArrayList<String> courses;
@@ -43,7 +44,7 @@ public class moduleClass {
         return students;
     }
 
-    public addStudents(String student)
+    public void addStudents(String student)
     {
         students.add(student);
     }
@@ -56,7 +57,7 @@ public class moduleClass {
         return courses;
     }
 
-    public addCourses(String course)
+    public void addCourses(String course)
     {
         courses.add(course);
     }

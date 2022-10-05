@@ -1,12 +1,15 @@
+import java.util.ArrayList;
 import org.joda.time.DateTime;
+
 public class courseProgrammeClass {
     String courseName;
+    String lecturerName;
     ArrayList<String> students;
     ArrayList<String> courses;
     DateTime startDate;
     DateTime endDate;
 
-    public courseProgrammeClass(String courseName, ArrayList<String> students, ArrayList<String> courses, DateTime startDate, DateTime endDate)
+    public courseProgrammeClass(String courseName, String lecturerName, ArrayList<String> students, ArrayList<String> courses, DateTime startDate, DateTime endDate)
     {
         this. courseName = courseName;
         this.lecturerName = lecturerName;
@@ -29,14 +32,14 @@ public class courseProgrammeClass {
     }
 
     public void setLecturerName(String lecturerName) {
-        this.lecturername = lecturerName;
+        this.lecturerName = lecturerName;
     }
 
     public ArrayList<String> getStudents() {
         return students;
     }
 
-    public addStudents(String student)
+    public void addStudents(String student)
     {
         students.add(student);
     }
@@ -49,7 +52,7 @@ public class courseProgrammeClass {
         return courses;
     }
 
-    public addCourses(String course)
+    public void addCourses(String course)
     {
         courses.add(course);
     }
