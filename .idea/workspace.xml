@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5be99d20-477b-47a2-b6bc-80ebc967a7da" name="Changes" comment="commit 4">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testClassJunit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testLecturerClassJunit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testModuleClassJunit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testProgrammeClassJunit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/courseProgrammeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/courseProgrammeClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/lecturerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecturerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/moduleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/moduleClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/studentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/testClassJunit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/courseProgrammeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/courseProgrammeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testClassJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testStudentClassJunit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664204802113</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit 4">
+      <created>1664994899910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664994899910</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit 4">
+      <created>1664994975681</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664994975681</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,7 +198,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
+    <MESSAGE value="commit 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
