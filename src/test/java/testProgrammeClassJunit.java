@@ -5,17 +5,17 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 
 
-class testMProgrammeClassJunit {
+class testProgrammeClassJunit {
 
     DateTime startDate = DateTime.parse("01/09/2022", DateTimeFormat.forPattern("dd/MM/yyyy"));
     DateTime endDate = DateTime.parse("05/12/2022", DateTimeFormat.forPattern("dd/MM/yyyy"));
-    ArrayList<String> modules = new ArrayList<>(){
+    ArrayList<String> modules = new ArrayList<>() {
         {
             add("Software Engineering");
         }
     };
 
-    ArrayList<String> students = new ArrayList<>(){
+    ArrayList<String> students = new ArrayList<>() {
         {
             add("Maria Henehan");
             add("Christina Heaney");
@@ -24,17 +24,16 @@ class testMProgrammeClassJunit {
     };
 
     courseProgrammeClass compSci = new courseProgrammeClass("Computer Science", students, modules, startDate, endDate);
+
     @Test
-    public void testAddStudents()
-    {
+    public void testProgrammeClass() {
+        Assertions.assertEquals("Computer Science", compSci.getCourseName());
+        Assertions.assertEquals(students, compSci.getStudents());
+        Assertions.assertEquals(modules, compSci.getModules());
+        Assertions.assertEquals(startDate, compSci.getStartDate());
+        Assertions.assertEquals(endDate, compSci.getEndDate());
         compSci.addStudents("Heather O'Brien");
         students.add("Heather O'Brien");
         Assertions.assertEquals(students, compSci.getStudents());
-    }
-
-    @Test
-    public void testCourseStartDate()
-    {
-        Assertions.assertEquals(startDate, compSci.getStartDate());
     }
 }

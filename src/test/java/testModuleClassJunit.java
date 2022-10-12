@@ -20,17 +20,17 @@ class testModuleClassJunit {
 
     moduleClass softwareEng = new moduleClass("Software Engineering", "Michael Schukat", "ct417", students, courses);
     @Test
-    public void testAddStudents()
+    public void testModuleClass()
     {
+        Assertions.assertEquals("Software Engineering", softwareEng.getModuleName());
+        Assertions.assertEquals("Michael Schukat", softwareEng.getLecturerName());
+        Assertions.assertEquals("ct417", softwareEng.getModuleID());
+        Assertions.assertEquals(students, softwareEng.getStudents());
+        Assertions.assertEquals(courses, softwareEng.getCourses());
         softwareEng.addStudents("Heather O'Brien");
         students.add("Heather O'Brien");
         Assertions.assertEquals(students, softwareEng.getStudents());
     }
 
-    @Test
-    public void testModuleLecturerName()
-    {
-        Assertions.assertEquals("Michael Schukat", softwareEng.getLecturerName());
-    }
 }
 

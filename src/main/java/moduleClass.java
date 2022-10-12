@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
 public class moduleClass {
-    String moduleName;
-    String lecturerName;
-    String moduleID;
-    ArrayList<String> students;
-    ArrayList<String> courses;
+    private String moduleName;
+    private String lecturerName;
+    private String moduleID;
+    private ArrayList<String> students;
+    private ArrayList<String> courses;
 
     public moduleClass(String moduleName, String lecturerName, String moduleID, ArrayList<String> students, ArrayList<String> courses)
     {

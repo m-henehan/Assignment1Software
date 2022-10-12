@@ -2,11 +2,11 @@ import org.joda.time.DateTime;
 import java.util.ArrayList;
 
 public class lecturerClass {
-    String name;
-    Integer age;
-    DateTime DOB;
-    String ID;
-    String username;
+    private String name;
+    private Integer age;
+    private DateTime DOB;
+    private String ID;
+    private String username;
     ArrayList<String> modules;
 
     public lecturerClass(String name, Integer age, DateTime DOB, String ID, ArrayList<String> modules)

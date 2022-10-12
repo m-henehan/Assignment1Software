@@ -2,13 +2,13 @@ import org.joda.time.DateTime;
 import java.util.ArrayList;
 
 public class studentClass {
-    String name;
-    Integer age;
-    DateTime DOB;
-    String ID;
-    String username;
-    ArrayList<String> courses;
-    ArrayList<String> modules;
+    private String name;
+    private Integer age;
+    private DateTime DOB;
+    private String ID;
+    private String username;
+    private ArrayList<String> courses;
+    private ArrayList<String> modules;
 
     public studentClass(String name, Integer age, DateTime DOB, String ID, ArrayList<String> courses, ArrayList<String> modules)
     {
