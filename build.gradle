@@ -7,6 +7,8 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
+
 }
 
 dependencies {
@@ -18,6 +20,7 @@ dependencies {
         because("Only needed to run tests in a version of IntelliJ IDEA that bundles older versions")
     }
     implementation('joda-time:joda-time:2.11.1')
+    implementation 'com.github.JetBrains:gradle-intellij-plugin:1.1.2'
 }
 
 test {
