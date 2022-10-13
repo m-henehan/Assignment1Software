@@ -1,3 +1,6 @@
+package org.example;
+
+import org.example.moduleClass;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;

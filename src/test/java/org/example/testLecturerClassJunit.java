@@ -1,3 +1,6 @@
+package org.example;
+
+import org.example.lecturerClass;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.junit.jupiter.api.Assertions;

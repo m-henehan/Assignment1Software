@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5be99d20-477b-47a2-b6bc-80ebc967a7da" name="Changes" comment="commit 7">
+    <list default="true" id="5be99d20-477b-47a2-b6bc-80ebc967a7da" name="Changes" comment="commit 8">
+      <change afterPath="$PROJECT_DIR$/src/main/java/testingToString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/courseProgrammeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/courseProgrammeClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lecturerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lecturerClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/moduleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/moduleClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testLecturerClassJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testLecturerClassJunit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testModuleClassJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testModuleClassJunit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testProgrammeClassJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testProgrammeClassJunit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testStudentClassJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testStudentClassJunit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665599351484</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit 8">
+      <created>1665599698531</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665599698531</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +233,8 @@
     <MESSAGE value="commit 4" />
     <MESSAGE value="commit 5" />
     <MESSAGE value="commit 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 7" />
+    <MESSAGE value="commit 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 8" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.ArrayList;
 
 public class moduleClass {
@@ -64,6 +66,13 @@ public class moduleClass {
 
     public void setCourses(ArrayList<String> courses) {
         this.courses = courses;
+    }
+
+    @Override
+    public String toString()
+    {
+        String module = moduleName + ", " +lecturerName + ", " + moduleID + ", " + students + ", " + courses;
+        return module;
     }
 
 }

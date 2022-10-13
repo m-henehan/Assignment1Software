@@ -1,3 +1,6 @@
+package org.example;
+
+import org.example.courseProgrammeClass;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.junit.jupiter.api.Assertions;
@@ -6,6 +9,7 @@ import java.util.ArrayList;
 
 
 class testProgrammeClassJunit {
+
 
     DateTime startDate = DateTime.parse("01/09/2022", DateTimeFormat.forPattern("dd/MM/yyyy"));
     DateTime endDate = DateTime.parse("05/12/2022", DateTimeFormat.forPattern("dd/MM/yyyy"));
@@ -36,4 +40,5 @@ class testProgrammeClassJunit {
         students.add("Heather O'Brien");
         Assertions.assertEquals(students, compSci.getStudents());
     }
+
 }

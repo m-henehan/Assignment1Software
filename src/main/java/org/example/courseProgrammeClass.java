@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.ArrayList;
 import org.joda.time.DateTime;
 
@@ -10,7 +12,7 @@ public class courseProgrammeClass {
 
     public courseProgrammeClass(String courseName, ArrayList<String> students, ArrayList<String> modules, DateTime startDate, DateTime endDate)
     {
-        this. courseName = courseName;
+        this.courseName = courseName;
         this.students =students;
         this.modules = modules;
         this.startDate = startDate;
@@ -66,5 +68,13 @@ public class courseProgrammeClass {
     public void setEndDate(DateTime endDate) {
         this.endDate = endDate;
     }
+
+    @Override
+    public String toString()
+    {
+        String programme = courseName + ", " +students + ", " + modules + ", " + startDate + ", " + endDate;
+        return programme;
+    }
+
 
 }

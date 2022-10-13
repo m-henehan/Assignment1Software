@@ -1,24 +1,23 @@
+package org.example;
+
 import org.joda.time.DateTime;
 import java.util.ArrayList;
 
-public class studentClass {
+public class lecturerClass {
     private String name;
     private Integer age;
     private DateTime DOB;
     private String ID;
     private String username;
-    private ArrayList<String> courses;
-    private ArrayList<String> modules;
+    ArrayList<String> modules;
 
-    public studentClass(String name, Integer age, DateTime DOB, String ID, ArrayList<String> courses, ArrayList<String> modules)
+    public lecturerClass(String name, Integer age, DateTime DOB, String ID, ArrayList<String> modules)
     {
         this.name = name;
         this.age = age;
         this.DOB = DOB;
         this.ID = ID;
-        this.courses = courses;
         this.modules = modules;
-        setUsername(name, age);
         username = setUsername(name, age);
 
     }
@@ -67,20 +66,6 @@ public class studentClass {
         return username;
     }
 
-
-    public ArrayList<String> getCourses() {
-        return courses;
-    }
-
-    public void addCourses(String course)
-    {
-        courses.add(course);
-    }
-
-    public void setCourses(ArrayList<String> courses) {
-        this.courses = courses;
-    }
-
     public ArrayList<String> getModules() {
         return modules;
     }
@@ -93,4 +78,12 @@ public class studentClass {
     public void setModules(ArrayList<String> modules) {
         this.modules = modules;
     }
+
+    @Override
+    public String toString()
+    {
+        String lecturer = name + ", " +age + ", " + DOB + ", " + ID + ", " + modules;
+        return lecturer;
+    }
 }
+
