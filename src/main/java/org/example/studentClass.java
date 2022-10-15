@@ -99,7 +99,7 @@ public class studentClass {
     @Override
     public String toString()
     {
-        String student = name + ", " +age + ", " + DOB + ", " + ID + ", " + courses + ", " + modules;
+        String student = name + ", " + username + ", " +age + ", " + DOB + ", " + ID + ", " + courses + ", " + modules;
         return student;
     }
 }

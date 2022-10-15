@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5be99d20-477b-47a2-b6bc-80ebc967a7da" name="Changes" comment="commit 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/studentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/studentClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,7 @@
       <command value="RunnerClass.java" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.Assignment1Software [build]">
     <configuration name="Assignment1Software [build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -222,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665660926495</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit 9">
+      <created>1665661869825</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665661869825</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
